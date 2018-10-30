@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>PharmaZ Prescriptions</title>
+    <!-- this is the code that will allow icon to be visible in the title bar of the brower -->
+    <link rel="icon" type="image/ico" href="Logo.png" />
+    <!-- you can also say this:  <link rel="icon" type="image/png" href="location/image.png" /> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    function appendText() {
+    var txt1 = "<p>Text.</p>";              // Create text with HTML
+    var txt2 = $("<p></p>").text("Text.");  // Create text with jQuery
+    var txt3 = document.createElement("acne");
+    txt3.innerHTML = "Text.";               // Create text with DOM
+    $("body").append(txt1, txt2, txt3);     // Append new elements
+}
+</script>
+
+</head>
+<style>
+#container,#h2,#form-group{
+  align-items: center;
+}
+</style>
+<body background="img2.jpg">
+  <div id="parent">
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home.html">PharmaZ</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h2 text-align="center">Shipping Details </h2><br>
+  <form>
+      <div class="form-group">
+        <label >Address Line 1:</label>
+        <input type="text" class="form-control" id="lemail" placeholder="" required>
+      </div>
+
+      <div class="form-group">
+        <label>Address Line 2:</label>
+        <input type="text area" class="form-control" id="lemail" placeholder="" required>
+      </div>
+
+      <div class="form-group">
+        <label for="sel1">Enter City:</label>
+    <select class="form-control" id="sel1">
+      <option>Bangalore</option>
+      <option>Chennnai</option>
+      <option>Delhi NCR</option>
+      <option>Hyderabad</option>
+      <option>Mumbai</option>
+      <option>Pune</option>
+    </select>
+  </div>
+      <div class="form-group">
+        <label>Pincode:</label>
+        <input type="number" class="form-control" id="lemail" placeholder="" required>
+      </div>
+
+      <label for="sel1">Delivery time:</label>
+    <select class="form-control" id="sel1">
+    <option>10am - 1pm</option>
+    <option>2pm - 6pm</option>
+    <option>6pm - 8pm</option>
+  </select><br><br>
+    <div class="wrapper">
+    <button type="submit" class="btn btn-default" name="sm" >Search</button>
+    </div>
+
+  </form>
+  </div>
+
+  </body>
+  </html>
