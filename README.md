@@ -8,4 +8,4 @@ The interface is shown below. The next images are of the  Order Tests Page, Buy 
 ![The interface - Homepage and Order Tests Page](https://github.com/Anniebbb/PharmaZ/blob/master/11.png)
 
 
-![The interface - Buy Meds Online pages](https://github.com/Anniebbb/PharmaZ/blob/master/5 (2).png)
+![The interface - Buy Meds Online pages](https://github.com/Anniebbb/PharmaZ/blob/master/5.png)
