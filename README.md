@@ -9,3 +9,7 @@ The interface is shown below. The next images are of the  Order Tests Page, Buy 
 
 
 ![The interface - Buy Meds Online pages](https://github.com/Anniebbb/PharmaZ/blob/master/5.png)
+
+
+Upon entering the patient and symptom details in the Search Prescription Page, meds are prescribed. 
+![The interface - Buy Meds Online pages](https://github.com/Anniebbb/PharmaZ/blob/master/1.png)
