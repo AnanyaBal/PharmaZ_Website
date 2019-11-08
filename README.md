@@ -3,4 +3,4 @@ My project for the Internet and Web Programming course - online pharmacy with dr
 
 The website was an online pharmacy portal with multiple functionalities like prescription search, login, sign up, contact etc.
 
-![alt text](https://github.com/Anniebbb/PharmaZ/blob/master/img1.png)
+![The interface - Homepage and Order Tests Page](https://github.com/Anniebbb/PharmaZ/blob/master/11.png)
